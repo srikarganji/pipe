@@ -21,10 +21,7 @@ pipeline {
         stage("Python execution") {
             steps {
                 // Debug: Check if Python is accessible
-                bat '"C:\\Users\\srika\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\python.exe" --version'
-
-                // Execute Python script
-                bat '"C:\\Users\\srika\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\python.exe" py.py'
+               echo "hello world from python"
             }
         }
     }
