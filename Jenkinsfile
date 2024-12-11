@@ -18,7 +18,7 @@ pipeline{
 
         stage("Python execution"){
             steps{
-                bat 'C:\Users\srika\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe py.py'
+                bat 'C:\\Users\\srika\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\python.exe py.py'
             }
         }
     }
